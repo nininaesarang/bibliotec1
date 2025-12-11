@@ -41,7 +41,8 @@ $css = '
     .cover-author { font-weight: bold; font-size: 14pt; margin-bottom: 10px; }
 </style>
 ';
-
+$meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+$fecha_actual = date('d') . " de " . $meses[date('n')-1] . " de " . date('Y');
 $html_portada = '
 <div class="cover-logos">
     <img src="img/logo_tecnm.png" class="cover-logo" />
@@ -58,7 +59,7 @@ $html_portada = '
     <p class="cover-author">Maryjose Martínez Regalado</p>
     <p>Ingeniería en Sistemas Computacionales</p>
     <p>Email: Mmtz5818@gmail.com</p>
-    <p>Fecha: ' . date("d de F de Y") . '</p>
+    <p>Fecha: ' . $fecha_actual . '</p>
 </div>
 
 <pagebreak />
