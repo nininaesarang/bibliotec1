@@ -18,8 +18,6 @@ Sistema integral diseñado para centralizar y optimizar el control de registros,
 2. Importa el archivo `.sql` en tu gestor de base de datos.
 3. Configura la conexión en el archivo de backend.
 
---
-
 #BiblioTec - Web-Based Inventory Management System
 
 A comprehensive system designed to centralize and optimize record control, geared towards the digitization of administrative processes.
