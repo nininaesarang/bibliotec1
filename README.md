@@ -17,3 +17,32 @@ Sistema integral diseñado para centralizar y optimizar el control de registros,
 1. Clona el repositorio.
 2. Importa el archivo `.sql` en tu gestor de base de datos.
 3. Configura la conexión en el archivo de backend.
+
+--
+
+#BiblioTec - Web-Based Inventory Management System
+
+A comprehensive system designed to centralize and optimize record control, geared towards the digitization of administrative processes.
+
+## ⚡ Technologies Used
+* **Frontend:** HTML5, CSS3, and JavaScript for an intuitive and dynamic interface.
+
+* **Backend:** PHP for server logic and data processing.
+
+* **Database:** SQL (MySQL/phpMyAdmin) with a relational architecture to ensure data integrity.
+
+* **Version Control:** Git and GitHub.
+
+## 🚀 Key Features
+* **Inventory Management:** Real-time registration, querying, and updating of items.
+
+* **Dynamic Validations:** Implementation of alerts and data validation with JavaScript to prevent user errors.
+
+* **Data Persistence:** Efficient record management through optimized SQL queries.
+
+## 🛠️ Installation and Use
+1. Clone the repository.
+
+2. Import the `.sql` file into your database management system.
+
+3. Configure the connection in the backend configuration file.
